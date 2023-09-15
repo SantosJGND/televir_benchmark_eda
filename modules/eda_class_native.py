@@ -636,6 +636,12 @@ class run_eda:
 
         return self.combdat[self.combdat.success == True]
 
+    def get_combd_data_failed(self):
+        if self.combdat is None:
+            self.combine_data()
+
+        return self.combdat[self.combdat.success == False]
+
     def combine_data_full(self):
         if os.path.isfile(self.reports_combined_full_path):
             combdat_full = pd.read_csv(self.reports_combined_full_path, sep="\t")
