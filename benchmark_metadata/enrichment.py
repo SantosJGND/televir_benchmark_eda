@@ -1,0 +1,22 @@
+samples_enrichment = ["BHV1-reads", "cpHV1-reads", "cvHV2-reads", "WTA2-PI3" "WTA2-BVD"]
+samples_non_enrichment = [
+    "2020_TE_4394_1_7",
+    "CT_24_barcode09_clean_nonhuman",
+    "CT_38_barcode08_clean_nonhuman",
+    "CT_18_barcode01_clean_nonhuman",
+    "2020_TE_4394_1_4",
+    "CT_36_barcode07_clean_nonhuman",
+    "CT_30_barcode06_clean_nonhuman",
+    "CT_27_barcode04A_clean_nonhuman",
+    "CT_21_barcode02_clean_nonhuman",
+    "2020_TE_4394_1_3",
+    "MPX_358009",
+    "WTA2-PI3",
+    "WTA2-BVD",
+    "2021_TE_315633_1_1",
+    "2021_TE_313028_2_4",
+    "MPXV_359028",
+    "2021_TE_306119_2_4",
+    "2021_TE_301967_2_5",
+    "2021_TE_301967_2_10",
+]

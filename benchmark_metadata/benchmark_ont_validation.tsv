@@ -1,0 +1,28 @@
+	project	sample_name	description	  software	type	input_reads	processed_reads	percent passed (%%)	taxid	accid
+0	batch_01	CT_24_barcode09_clean_nonhuman	Severe acute respiratory syndrome coronavirus 2;coronavirus 2	nanofilt	ONT	2,542	2,468	97.09	2697048	NC_045512.2
+1	Batch_00	2020_TE_4394_1_10	H1N1	nanofilt	ONT	8,307	8,172	98.37	211044;641809	NC_002023.1;NC_026438.1
+2	batch_01	2020_TE_4394_1_7	H1N1	nanofilt	ONT	12,863	12,738	99.03	211044;641809	NC_002023.1;NC_026438.1
+3	batch_01	cpHV1-reads	Caprine herpesvirus 1	nanofilt	ONT	26,758	26,756	99.99	39944	NC_043055.1
+4	Batch_00	2020_TE_4394_1_8	H1N1	nanofilt	ONT	28,387	27,984	98.58	211044;641809	NC_002023.1;NC_026438.1
+5	batch_01	BHV1-reads	Bovine alphaherpesvirus 5	nanofilt	ONT	28,177	28,175	99.99	35244	NC_005261.3
+6	batch_02	cvHV2-reads	Cervid herpesvirus 1	nanofilt	ONT	34,796	34,791	99.99	79891	NC_043056.1
+7	batch_02	CT_36_barcode07_clean_nonhuman	coronavirus 2	nanofilt	ONT	84,224	82,987	98.53	2697049	NC_045512.2
+8	batch_02	2020_TE_4394_1_4	H1N1	nanofilt	ONT	43,31	42,74	98.68	211044;641809	NC_002023.1;NC_026438.1
+9	batch_02	CT_18_barcode01_clean_nonhuman	coronavirus 2	nanofilt	ONT	50,451	49,545	98.2	2697049	NC_045512.2
+10	batch_02	CT_38_barcode08_clean_nonhuman	coronavirus 2	nanofilt	ONT	82,764	81,424	98.38	2697049	NC_045512.2
+11	batch_02	MCF-P6_replig	Herpesvirus 1	nanofilt	ONT	92,374	82,17	88.95	10398;654901;33705	
+12	batch_03	CT_30_barcode06_clean_nonhuman	coronavirus 2	nanofilt	ONT	175,676	172,118	97.97	2697048	NC_045512.2
+13	batch_03	CT_21_barcode02_clean_nonhuman	coronavirus 2	nanofilt	ONT	98,917	97,327	98.39	2697048	NC_045512.2
+14	batch_03	CT_27_barcode04A_clean_nonhuman	coronavirus 2	nanofilt	ONT	103,4	101,669	98.33	1_TE_301967_2_1	NC_045512.2
+15	batch_03	2020_TE_4394_1_3	H1N1	nanofilt	ONT	128,933	126,852	98.39	211044;641809	NC_002023.1;NC_026438.1
+16	batch_03	MPXV_359028	Monkeypox	nanofilt	ONT	239,35	235,287	98.3	619591	NC_003310.1
+17	batch_03	CT_30_barcode06_clean_nonhuman		nanofilt	ONT	175,676	172,118	97.97		
+18	batch_04	2021_TE_315633_1_1	Epizootic hemorrhagic disease	nanofilt	ONT	364,942	364,883	99.98	449133;40054;40051	NC_013396.1;LC202944.1
+19	batch_04	2021_TE_313028_2_4	Epizootic hemorrhagic disease	WTA2-BVD	ONT	575,871	575,854	100.0	449133;402584;40054;40051	NC_013396.1;NC_012812.1;LC202944.1
+20	batch_04	WTA2-BVD	Bovine viral diarrhea	nanofilt	ONT	248,68	248,669	100.0	11099	NC_001461.1
+21	batch_04	WTA2-PI3	Bovine Parainfluenza 3;	nanofilt	ONT	251,828	251,826	100.0	11215	NC_002161.1
+22	batch_04	MPX_358009	Monkeypox	nanofilt	ONT	315,808	308,929	97.82	619591	NC_003310.1
+23	batch_05	2021_TE_301967_2_5	Bluetongue virus	nanofilt	ONT	334,641	334,629	100.0	40051;449133	NC_006014.1;NC_006023.1;NC_006007.1;NC_006024.2;NC_006025.1;NC_006022.1;NC_006015.1
+24	batch_05	MPX_360886_gv6	Monkeypox	nanofilt	ONT	715,416	702,844	98.24	619591	NC_003310.1
+25	batch_05	2021_TE_301967_2_10	Bluetongue virus	nanofilt	ONT	732,654	732,614	99.99	40051;449133	NC_006014.1;NC_006023.1;NC_006007.1;NC_006024.2;NC_006025.1;NC_006022.1;NC_006015.1
+26	batch_05	2021_TE_306119_2_4	Bluetongue virus	nanofilt	ONT	813,964	813,934	100.0	40051;449133	NC_006014.1;NC_006023.1;NC_006007.1;NC_006024.2;NC_006025.1;NC_006022.1;NC_006015.1

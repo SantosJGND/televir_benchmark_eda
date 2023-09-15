@@ -1,0 +1,308 @@
+description	count	accids	taxid	runid_number	total_runid_number	runid_perc	samples_number	samples
+Bubaline alphaherpesvirus 1 strain b6, complete genome	13484	NC_043054.1	202910	698	1152	0.6059027777777778	8	BHV1-reads,cpHV1-reads,cvHV2-reads,MPX_358009,WTA2-BVD,2021_TE_313028_2_4,MPXV_359028,2021_TE_306119_2_4
+BeAn 58058 virus, complete genome	12256	NC_032111.1	67082	640	1848	0.3463203463203463	14	BHV1-reads,CT_24_barcode09_clean_nonhuman,cvHV2-reads,CT_18_barcode01_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman,2020_TE_4394_1_3,MPX_358009,WTA2-BVD,2021_TE_315633_1_1,MPXV_359028,2021_TE_301967_2_5
+Macacine herpesvirus 1, complete genome	11544	NC_004812.1	10325	594	2079	0.2857142857142857	15	BHV1-reads,cpHV1-reads,CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_21_barcode02_clean_nonhuman,MPX_358009,WTA2-BVD,2021_TE_315633_1_1,2021_TE_313028_2_4,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Hepacivirus C isolate HK6a, complete genome	11448	MG717928.1	11103	582	2430	0.23950617283950618	18	BHV1-reads,cpHV1-reads,CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_18_barcode01_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman,MPX_358009,WTA2-BVD,2021_TE_315633_1_1,2021_TE_313028_2_4,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Cercopithecine herpesvirus 2, complete genome	9312	NC_006560.1	10317	482	2079	0.23184223184223185	16	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman,MPX_358009,WTA2-BVD,2021_TE_315633_1_1,2021_TE_313028_2_4,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Tick-borne encephalitis virus, complete genome	8985	NC_001672.1	11084	451	1731	0.2605430387059503	12	BHV1-reads,cpHV1-reads,CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_30_barcode06_clean_nonhuman,CT_21_barcode02_clean_nonhuman,MPX_358009,WTA2-BVD,2021_TE_315633_1_1,2021_TE_301967_2_5,2021_TE_301967_2_10
+Guanarito mammarenavirus isolate CVH-960201 segment L, complete sequence	8643	KU746283.1	45219	441	1620	0.2722222222222222	13	2020_TE_4394_1_7,2020_TE_4394_1_4,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman,2020_TE_4394_1_3,MPX_358009,WTA2-BVD,2021_TE_315633_1_1,2021_TE_313028_2_4,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Bovine herpesvirus 5 strain SV507/99, complete genome	8497	NC_005261.3	35244	441	1044	0.4224137931034483	8	cpHV1-reads,cvHV2-reads,CT_21_barcode02_clean_nonhuman,MPX_358009,WTA2-BVD,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5
+Bat coronavirus BM48-31/BGR/2008, complete genome	8452	NC_014470.1	864596	438	936	0.46794871794871795	7	CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,CT_18_barcode01_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Shamonda virus N and NSs genes, segment S, genomic RNA, isolate Ib An 5550	7974	NC_018464.1	159150	414	810	0.5111111111111111	6	2020_TE_4394_1_7,MPX_358009,2021_TE_315633_1_1,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+SARS coronavirus Tor2, complete genome	7840	NC_004718.3	227984	408	819	0.4981684981684982	6	CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,CT_18_barcode01_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Suid herpesvirus 1, complete genome	7618	NC_006151.1	10345	396	687	0.5764192139737991	4	BHV1-reads,cpHV1-reads,cvHV2-reads,WTA2-BVD
+Severe acute respiratory syndrome-related coronavirus strain BtKY72, complete genome	7069	KY352407.1	694009	365	936	0.38995726495726496	7	CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,CT_18_barcode01_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+UNVERIFIED: Severe acute respiratory syndrome-related coronavirus isolate F46, complete genome	7069	KU973692.1	694009	365	936	0.38995726495726496	7	CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,CT_18_barcode01_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Saimiriine herpesvirus 1, complete genome	6134	NC_014567.1	10353	318	687	0.462882096069869	4	BHV1-reads,cpHV1-reads,cvHV2-reads,WTA2-BVD
+Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey) segment 1	5751	NC_013396.1	449133	297	351	0.8461538461538461	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey) segment 9	5751	NC_013404.1	449133	297	351	0.8461538461538461	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey) segment 3	5751	NC_013398.1	449133	297	351	0.8461538461538461	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey) segment 5	5751	NC_013400.1	449133	297	351	0.8461538461538461	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey) segment 4	5751	NC_013399.1	449133	297	351	0.8461538461538461	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Classical swine fever virus polyprotein gene, complete cds	5637	AF352565.1	11096	285	1500	0.19	11	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_21_barcode02_clean_nonhuman,MPX_358009,WTA2-BVD,2021_TE_315633_1_1,MPXV_359028,2021_TE_301967_2_5,2021_TE_301967_2_10
+Papiine herpesvirus 2, complete genome	5594	NC_007653.1	340907	292	576	0.5069444444444444	3	BHV1-reads,cpHV1-reads,cvHV2-reads
+Guanarito mammarenavirus isolate CVH-950801 segment S, complete sequence	5514	KU746280.1	45219	282	924	0.3051948051948052	7	2020_TE_4394_1_7,MPX_358009,2021_TE_315633_1_1,2021_TE_313028_2_4,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_10
+Equine infectious anemia virus, complete genome	5145	NC_001450.1	11665	267	585	0.4564102564102564	5	CT_38_barcode08_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Choristoneura fumiferana granulovirus, complete genome	4921	NC_008168.1	56947	259	918	0.2821350762527233	8	MPX_358009,WTA2-BVD,2021_TE_315633_1_1,2021_TE_313028_2_4,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Ambystoma tigrinum virus isolate 2013-LL1, complete genome	4874	MK580533.2	265294	248	1161	0.2136089577950043	8	BHV1-reads,cpHV1-reads,cvHV2-reads,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028,2021_TE_301967_2_10
+Common midwife toad ranavirus isolate Pelophylax kl. esculentus/2013/NL, complete genome	4722	NC_039034.1	540070	240	1044	0.22988505747126436	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Feline immunodeficiency virus isolate Mc350, complete genome	4568	EF455604.1	11673	230	1503	0.15302727877578176	11	BHV1-reads,CT_24_barcode09_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_21_barcode02_clean_nonhuman,MPX_358009,2021_TE_315633_1_1,2021_TE_313028_2_4,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Cyprinid herpesvirus 1 strain NG-J1, complete genome	4404	NC_019491.1	317858	228	1626	0.14022140221402213	12	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,MPX_358009,2021_TE_313028_2_4,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Bluetongue virus segment 4, complete sequence	4290	NC_006024.2	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Bluetongue virus segment 7, complete sequence	4290	NC_006022.1	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Bluetongue virus isolate BTV-X ITL2015 segment 1, complete sequence	4290	KX234078.3	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Bluetongue virus segment 5, complete sequence	4290	NC_006025.1	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Bluetongue virus segment 1, complete sequence	4290	NC_006023.1	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Bluetongue virus segment 3, complete sequence	4290	NC_006014.1	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Bluetongue virus segment 8, complete sequence	4290	NC_006007.1	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Bluetongue virus gene for VP6 protein, complete cds	4290	NC_006008.2	40051	222	222	1.0	2	2021_TE_315633_1_1,2021_TE_313028_2_4
+Equid herpesvirus 3 strain AR/2007/C3A, complete genome	4190	NC_024771.1	80341	218	576	0.3784722222222222	3	BHV1-reads,cpHV1-reads,cvHV2-reads
+Influenza A virus (A/New York/392/2004(H3N2)) segment 1, complete sequence	4095	NC_007373.1	335341	213	468	0.4551282051282051	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/New York/392/2004(H3N2)) segment 5, complete sequence	4095	NC_007369.1	335341	213	468	0.4551282051282051	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/New York/392/2004(H3N2)) segment 8, complete sequence	4095	NC_007370.1	335341	213	468	0.4551282051282051	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/New York/392/2004(H3N2)) segment 3, complete sequence	4095	NC_007371.1	335341	213	468	0.4551282051282051	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/New York/392/2004(H3N2)) segment 7, complete sequence	4095	NC_007367.1	335341	213	468	0.4551282051282051	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Luna mammarenavirus viral cRNA, segment L, complete sequence, strain: SLW-1	4002	AB972431.1	883876	204	1044	0.19540229885057472	8	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3,WTA2-BVD,2021_TE_313028_2_4,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Frog virus 3 strain Rana-Bra-01, complete genome	3996	MH351268.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3 strain Z897, complete genome	3996	MK959611.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3 isolate Op/2015/Netherlands/UU3150324001, complete genome	3996	MF360246.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3 strain Z933, complete genome	3996	MK959616.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3 strain Z929, complete genome	3996	MK959614.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3, complete genome	3996	NC_005946.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3 strain KTW1, complete genome	3996	MK959607.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+UNVERIFIED: Frog virus 3 isolate RUK13, complete genome	3996	KJ538546.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3 strain Z377, complete genome	3996	MK959608.1	10493	204	1044	0.19540229885057472	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Influenza A virus (A/New York/392/2004(H3N2)) segment 2, complete sequence	3962	NC_007372.1	335341	206	468	0.44017094017094016	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Frog virus 3 strain Z930, complete genome	3920	MK959615.1	10493	200	1044	0.19157088122605365	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Frog virus 3 strain Z939, complete genome	3920	MK959619.1	10493	200	1044	0.19157088122605365	7	BHV1-reads,cpHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) neuraminidase (NA) gene, complete cds	3854	NC_007361.1	93838	200	468	0.42735042735042733	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) polymerase (PA) and PA-X protein (PA-X) genes, complete cds	3854	NC_007359.1	93838	200	468	0.42735042735042733	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) nucleocapsid protein (NP) gene, complete cds	3854	NC_007360.1	93838	200	468	0.42735042735042733	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) segment 7, complete sequence	3854	NC_007363.1	93838	200	468	0.42735042735042733	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) polymerase (PB2) gene, complete cds	3854	NC_007357.1	93838	200	468	0.42735042735042733	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) polymerase (PB1) and PB1-F2 protein (PB1-F2) genes, complete cds	3854	NC_007358.1	93838	200	468	0.42735042735042733	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Coronavirus BtRl-BetaCoV/SC2018, complete genome	3843	MK211374.1	2591233	199	936	0.2126068376068376	7	CT_24_barcode09_clean_nonhuman,CT_38_barcode08_clean_nonhuman,CT_18_barcode01_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Influenza A virus pa gene for polymerase PA, genomic RNA, strain A/Hong Kong/1073/99(H9N2)	3610	NC_004912.1	130760	190	468	0.405982905982906	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus pb1 gene for polymerase Pb1, genomic RNA, strain A/Hong Kong/1073/99(H9N2)	3610	NC_004911.1	130760	190	468	0.405982905982906	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Hong Kong/1073/99(H9N2)) segment 5, complete sequence	3610	NC_004905.2	130760	190	468	0.405982905982906	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Hong Kong/1073/99(H9N2)) segment 7, complete sequence	3610	NC_004907.1	130760	190	468	0.405982905982906	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus pb2 gene for polymerase Pb2, genomic RNA, strain A/Hong Kong/1073/99(H9N2)	3610	NC_004910.1	130760	190	468	0.405982905982906	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Cowpox virus, complete genome	3600	NC_003663.2	10243	186	459	0.40522875816993464	4	MPX_358009,2021_TE_315633_1_1,MPXV_359028,2021_TE_306119_2_4
+Beluga whale alphaherpesvirus 1 strain LN3131-1, complete genome	3531	NC_055166.1	1434720	183	576	0.3177083333333333	3	BHV1-reads,cpHV1-reads,cvHV2-reads
+Hepatitis C virus genotype 6, complete genome	3399	NC_009827.1	42182	171	1044	0.16379310344827586	7	BHV1-reads,cpHV1-reads,CT_36_barcode07_clean_nonhuman,2020_TE_4394_1_3,MPX_358009,2021_TE_313028_2_4,MPXV_359028
+Mayaro virus strain BeH473130, complete genome	3275	KY618133.1	59301	167	927	0.18015102481121897	7	BHV1-reads,cvHV2-reads,MPX_358009,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Mayaro virus strain BeH505465, complete genome	3275	KY618135.1	59301	167	927	0.18015102481121897	7	BHV1-reads,cvHV2-reads,MPX_358009,MPXV_359028,2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Cervid herpesvirus 1 strain Banffshire 82 glycoprotein B gene, complete cds	3216	NC_043056.1	79891	168	462	0.36363636363636365	2	BHV1-reads,cpHV1-reads
+Equid herpesvirus 1, complete genome	3135	NC_001491.2	10326	165	348	0.47413793103448276	2	cpHV1-reads,cvHV2-reads
+Influenza A virus (A/swine/Asendorf/4966/2006(H3N2)) segment 1 polymerase PB2 (PB2) gene, complete cds	3106	MK361935.1	11320	160	468	0.3418803418803419	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Ictalurid herpesvirus 1 strain Auburn 1, complete genome	2956	NC_001493.2	10401	152	1041	0.14601344860710855	7	BHV1-reads,cpHV1-reads,cvHV2-reads,CT_30_barcode06_clean_nonhuman,2021_TE_313028_2_4,MPXV_359028,2021_TE_301967_2_10
+Variola virus, complete genome	2892	NC_001611.1	10255	150	234	0.6410256410256411	2	MPX_358009,MPXV_359028
+Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 8 nuclear export protein (NEP) and nonstructural protein 1 (NS1) genes, complete cds	2885	NC_026428.1	1332244	149	468	0.31837606837606836	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 1 polymerase PB2 (PB2) gene, complete cds	2885	NC_026422.1	1332244	149	468	0.31837606837606836	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 5 nucleocapsid protein (NP) gene, complete cds	2885	NC_026426.1	1332244	149	468	0.31837606837606836	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 3 polymerase PA (PA) and PA-X protein (PA-X) genes, complete cds	2885	NC_026424.1	1332244	149	468	0.31837606837606836	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 2 polymerase PB1 (PB1) and PB1-F2 protein (PB1-F2) genes, complete cds	2885	NC_026423.1	1332244	149	468	0.31837606837606836	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 7 matrix protein 2 (M2) and matrix protein 1 (M1) genes, complete cds	2885	NC_026427.1	1332244	149	468	0.31837606837606836	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Volepox virus strain CA, complete genome	2784	NC_031033.1	28874	144	579	0.24870466321243523	4	BHV1-reads,CT_27_barcode04A_clean_nonhuman,MPX_358009,MPXV_359028
+Camelpox virus, complete genome	2754	NC_003391.1	28873	144	234	0.6153846153846154	2	MPX_358009,MPXV_359028
+Vaccinia virus, complete genome	2721	NC_006998.1	10245	141	234	0.6025641025641025	2	MPX_358009,MPXV_359028
+Ectromelia virus, complete genome	2664	NC_004105.1	12643	138	351	0.39316239316239315	3	MPX_358009,MPXV_359028,2021_TE_306119_2_4
+Ateline alphaherpesvirus 1 isolate Lennette, complete genome	2653	NC_034446.1	35243	139	576	0.24131944444444445	3	BHV1-reads,cpHV1-reads,cvHV2-reads
+Hepatitis C virus genotype 1, complete genome	2616	NC_004102.1	41856	132	585	0.22564102564102564	5	CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman,2020_TE_4394_1_3,MPXV_359028
+Streptococcus virus 9874, complete genome	2608	NC_031023.1	1814960	136	351	0.38746438746438744	3	CT_36_barcode07_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Simbu virus RdRp gene for RNA-dependent RNA polymerase, segment L, genomic RNA, isolate SA Ar 53	2544	NC_018476.1	35306	132	228	0.5789473684210527	2	WTA2-BVD,2021_TE_301967_2_10
+Human endogenous retrovirus K113 complete genome	2532	NC_022518.1	166122	132	345	0.3826086956521739	3	MPX_358009,WTA2-BVD,MPXV_359028
+Duck coronavirus isolate DK/GD/27/2014, complete genome	2502	NC_048214.1,KM454473.1	300188	65	468	0.1388888888888889	3	CT_24_barcode09_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Porcine circovirus 1, complete genome	2468	NC_001792.2	133704	128	228	0.5614035087719298	1	BHV1-reads
+Taterapox virus, complete genome	2436	NC_008291.1	28871	126	234	0.5384615384615384	2	MPX_358009,MPXV_359028
+Akhmeta virus isolate Akhmeta_2013-88, complete genome	2425	NC_055230.1	2200830	125	693	0.18037518037518038	5	BHV1-reads,cvHV2-reads,CT_30_barcode06_clean_nonhuman,MPX_358009,MPXV_359028
+Kammavanpettai virus isolate 66413 NS3 protein (NS3) gene, complete cds	2409	MG770349.1	2282480	123	699	0.1759656652360515	5	2020_TE_4394_1_7,2020_TE_4394_1_3,2021_TE_313028_2_4,2021_TE_306119_2_4,2021_TE_301967_2_10
+Rana catesbeiana virus isolate RCV-Z, complete genome	2364	MF187210.1	1380865	120	693	0.17316017316017315	4	BHV1-reads,cpHV1-reads,cvHV2-reads,MPXV_359028
+Non-primate hepacivirus NZP1, complete genome	2268	KP325401.1	1605403	114	579	0.19689119170984457	4	BHV1-reads,CT_38_barcode08_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Non-primate hepacivirus NZP1 polyprotein (POLY) gene, complete cds	2268	NC_038425.1	1605403	114	579	0.19689119170984457	4	BHV1-reads,CT_38_barcode08_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Bat Hp-betacoronavirus/Zhejiang2013, complete genome	2133	NC_025217.1	1541205	111	585	0.18974358974358974	4	CT_24_barcode09_clean_nonhuman,CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Influenza A virus (A/Hong Kong/1073/99(H9N2)) segment 8, complete sequence	2109	NC_004906.1	130760	111	234	0.47435897435897434	1	2020_TE_4394_1_7
+Bluetongue virus segment 10, complete sequence	2088	NC_006015.1	40051	108	108	1.0	1	2021_TE_315633_1_1
+Mayaro virus strain BeAr757954, complete genome	2042	KY618130.1	59301	104	576	0.18055555555555555	4	BHV1-reads,cvHV2-reads,MPX_358009,MPXV_359028
+Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey) segment 8	1974	NC_013403.1	449133	102	117	0.8717948717948718	1	2021_TE_306119_2_4
+Human herpesvirus 1 strain 17, complete genome	1919	NC_001806.2	10298	101	576	0.1753472222222222	3	BHV1-reads,cpHV1-reads,cvHV2-reads
+Epizootic hemorrhagic disease virus L3 gene for inner capsid protein VP3, complete cds	1878	AB041933.1	40054	96	351	0.27350427350427353	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Epizootic hemorrhagic disease virus type 2 core protein VP7 (S7) gene, complete cds	1878	AF484250.1	40054	96	351	0.27350427350427353	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Elephantid herpesvirus 1, complete genome	1645	NC_020474.2	146015	85	576	0.14756944444444445	4	BHV1-reads,cvHV2-reads,MPX_358009,MPXV_359028
+Human lung-associated vientovirus FB, complete genome	1602	NC_055523.1	2571082	84	234	0.358974358974359	2	CT_30_barcode06_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Raccoonpox virus, complete genome	1500	NC_027213.1	10256	78	234	0.3333333333333333	2	MPX_358009,MPXV_359028
+Cyprinid herpesvirus 3, complete genome	1487	NC_009127.1	180230	77	693	0.1111111111111111	4	BHV1-reads,cpHV1-reads,cvHV2-reads,CT_30_barcode06_clean_nonhuman
+Warrego virus strain AUS1969/01 segment 3, complete sequence	1482	NC_038615.1,KJ495757.1	40062	39	108	0.3611111111111111	1	2021_TE_315633_1_1
+Cercopithecine herpesvirus 5 strain 2715, complete genome	1481	NC_012783.2	50292	77	693	0.1111111111111111	5	BHV1-reads,CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_27_barcode04A_clean_nonhuman,MPXV_359028
+Orthopoxvirus Abatino, complete genome	1437	NC_055231.1	2478919	75	234	0.32051282051282054	2	MPX_358009,MPXV_359028
+Ovine enzootic nasal tumour virus, complete genome	1425	NC_007015.1	69576	75	234	0.32051282051282054	2	2021_TE_306119_2_4,2021_TE_301967_2_10
+Equid herpesvirus 9, complete genome	1368	NC_011644.1	55744	72	576	0.125	3	BHV1-reads,cpHV1-reads,cvHV2-reads
+Streptococcus virus 9873, complete genome	1311	NC_047763.1	1814959	69	351	0.19658119658119658	3	CT_36_barcode07_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Wencheng Sm shrew coronavirus isolate Yudu-76 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds	1309	KY967723.1	1508228	67	234	0.2863247863247863	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds	1309	NC_048211.1	1508228	67	234	0.2863247863247863	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds	1309	NC_035191.1	1508228	67	234	0.2863247863247863	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Spring beauty latent virus RNA 3, complete sequence	1292	NC_004122.1	188141	68	933	0.07288317256162916	8	CT_38_barcode08_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman,2020_TE_4394_1_3,2021_TE_313028_2_4,2021_TE_301967_2_5
+Macacine herpesvirus 4, complete genome	1254	NC_006146.1	45455	66	348	0.1896551724137931	2	cpHV1-reads,cvHV2-reads
+Human betaherpesvirus 6A, variant A DNA, complete virion genome, isolate U1102	1228	NC_001664.4	32603	64	348	0.1839080459770115	3	cvHV2-reads,MPX_358009,2021_TE_301967_2_10
+Heterosigma akashiwo virus 01 isolate HaV53, complete genome	1213	NC_038553.1	97195	61	585	0.10427350427350428	4	CT_24_barcode09_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Sewage-associated gemycircularvirus-4 isolate BS3913, complete sequence	1140	NC_026144.1	1519399	60	231	0.2597402597402597	2	2021_TE_313028_2_4,2021_TE_301967_2_5
+Bovine parainfluenza virus 3 viral cRNA, complete genome, strain: BN-1	1101	AB770484.1	11215	57	111	0.5135135135135135	1	WTA2-BVD
+Bovine parainfluenza virus 3 viral cRNA, complete genome, strain: FK/D56/13	1101	LC040886.1	11215	57	111	0.5135135135135135	1	WTA2-BVD
+Bovine parainfluenza virus 3 isolate TVMDL15, complete genome	1101	KJ647284.1	11215	57	111	0.5135135135135135	1	WTA2-BVD
+Bovine parainfluenza virus 3, complete genome	1101	NC_002161.1	11215	57	111	0.5135135135135135	1	WTA2-BVD
+Bovine parainfluenza virus 3 strain Q5592, complete genome	1101	EU277658.1	11215	57	111	0.5135135135135135	1	WTA2-BVD
+Streptococcus virus 9872, complete genome	1095	NC_031094.1	1814958	57	231	0.24675324675324675	2	CT_36_barcode07_clean_nonhuman,2021_TE_313028_2_4
+Streptococcus virus 9871, complete genome	1095	NC_031069.1	1814957	57	231	0.24675324675324675	2	CT_36_barcode07_clean_nonhuman,2021_TE_313028_2_4
+Heterobasidion partitivirus 2 isolate HetRV2-pa1 putative coat protein gene, complete cds	1072	NC_038840.1	872291	54	456	0.11842105263157894	4	CT_38_barcode08_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,2021_TE_315633_1_1,2021_TE_313028_2_4
+Influenza A virus (A/Korea/426/1968(H2N2)) segment 2, complete sequence	1045	NC_007375.1	488241	55	468	0.11752136752136752	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Korea/426/1968(H2N2)) segment 7, complete sequence	1045	NC_007377.1	488241	55	468	0.11752136752136752	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Korea/426/1968(H2N2)) segment 3, complete sequence	1045	NC_007376.1	488241	55	468	0.11752136752136752	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Korea/426/1968(H2N2)) segment 5, complete sequence	1045	NC_007381.1	488241	55	468	0.11752136752136752	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Korea/426/1968(H2N2)) segment 1, complete sequence	1045	NC_007378.1	488241	55	468	0.11752136752136752	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Influenza A virus (A/Korea/426/1968(H2N2)) segment 8, complete sequence	1045	NC_007380.1	488241	55	468	0.11752136752136752	3	2020_TE_4394_1_7,2020_TE_4394_1_4,2020_TE_4394_1_3
+Molluscum contagiosum virus subtype 1, complete genome	1038	NC_001731.1	10280	54	345	0.1565217391304348	2	BHV1-reads,MPX_358009
+Enzootic nasal tumour virus of goats, complete genome	1026	NC_004994.2	239365	54	234	0.23076923076923078	2	2021_TE_306119_2_4,2021_TE_301967_2_10
+Lymphocystis disease virus - isolate China, complete genome	1005	NC_005902.1	256729	51	351	0.1452991452991453	2	cpHV1-reads,MPXV_359028
+Classical swine fever virus strain JJ9811, complete genome	987	KF669877.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Classical swine fever virus isolate HY78, complete genome	987	MH979231.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Classical swine fever virus strain CSFV/1.4/dp/CSF1058/2010/Pinar del Rio, complete genome	987	KX576461.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Classical swine fever virus isolate CSFV_IND/UK/LAL-290, complete genome	987	KC851953.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Classical swine fever virus isolate ND20, complete genome	987	MH979232.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Classical swine fever virus strain 94.4/IL/94/TWN, complete genome	987	AY646427.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Classical swine fever virus isolate Sp01, complete genome	987	FJ265020.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Classical swine fever virus, complete genome	987	NC_002657.1	11096	51	111	0.4594594594594595	1	WTA2-BVD
+Gentian ovary ring-spot virus genomic RNA, segment 2, complete sequence, isolate: S	953	NC_024502.1	1920772	49	570	0.08596491228070176	5	cvHV2-reads,CT_21_barcode02_clean_nonhuman,2021_TE_315633_1_1,2021_TE_313028_2_4,2021_TE_301967_2_5
+Rousettus bat coronavirus HKU9, complete genome	950	NC_009021.1	694006	50	234	0.21367521367521367	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Columbid alphaherpesvirus 1 strain HLJ, complete genome	950	NC_034266.1	93386	50	576	0.08680555555555555	3	BHV1-reads,cpHV1-reads,cvHV2-reads
+Orbivirus SX-2017a VP3 gene, complete cds	931	NC_033784.1	1955493	49	351	0.1396011396011396	3	2021_TE_306119_2_4,2021_TE_301967_2_5,2021_TE_301967_2_10
+Equid herpesvirus 8, complete genome	912	NC_017826.1	39637	48	348	0.13793103448275862	2	cpHV1-reads,cvHV2-reads
+Murine hepatitis virus strain A59, complete genome	855	NC_048217.1	11138	45	351	0.1282051282051282	3	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Murine hepatitis virus strain A59 isolate WT-MHV P250, complete genome	855	MF618252.1	11138	45	351	0.1282051282051282	3	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Torque teno virus 13 isolate TCHN-A Orf2 and Orf1 genes, complete cds	855	NC_038339.1	687352	45	117	0.38461538461538464	1	CT_36_barcode07_clean_nonhuman
+Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome	855	NC_001846.1	11138	45	351	0.1282051282051282	3	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Fowl aviadenovirus E strain 14-259, complete genome	834	MK572865.1	190065	42	234	0.1794871794871795	2	MPX_358009,MPXV_359028
+Anhembi virus strain SPAr2984 nucleocapsid protein gene, complete cds	834	NC_043566.1	273355	42	465	0.09032258064516129	4	CT_38_barcode08_clean_nonhuman,cvHV2-reads,CT_36_barcode07_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Hibiscus latent Singapore virus, complete genome	834	NC_008310.2	185955	42	234	0.1794871794871795	2	CT_38_barcode08_clean_nonhuman,CT_36_barcode07_clean_nonhuman
+Heterobasidion RNA Virus 3 putative coat protein gene, complete cds	834	NC_038835.1	631431	42	234	0.1794871794871795	2	CT_38_barcode08_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Skunkpox virus strain WA, complete genome	816	NC_031038.1	160796	42	234	0.1794871794871795	2	MPX_358009,MPXV_359028
+Hibiscus latent Fort Pierce virus genomic RNA, complete genome, isolate: J	815	NC_025381.1	233051	41	351	0.1168091168091168	2	CT_24_barcode09_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Tylonycteris bat coronavirus HKU4, complete genome	798	NC_009019.1	694007	42	234	0.1794871794871795	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Encephalomyocarditis virus, complete genome	777	NC_001479.1	12104	39	234	0.16666666666666666	1	cpHV1-reads
+Torque teno mini virus ALA22, complete genome	759	NC_025726.1	1535290	39	117	0.3333333333333333	1	CT_21_barcode02_clean_nonhuman
+Torque teno virus 8, complete genome	741	NC_014084.1	687347	39	117	0.3333333333333333	1	CT_36_barcode07_clean_nonhuman
+Human herpesvirus 2 strain HG52, complete genome	741	NC_001798.2	10310	39	573	0.06806282722513089	3	BHV1-reads,cpHV1-reads,WTA2-BVD
+Bat coronavirus isolate PREDICT/PDF-2180, complete genome	741	NC_034440.1	1508220	39	234	0.16666666666666666	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Pepper chlorotic spot virus isolate 14YV733 segment L, complete sequence	741	NC_033774.1	1414655	39	117	0.3333333333333333	1	CT_18_barcode01_clean_nonhuman
+Jaagsiekte sheep retrovirus, complete genome	741	NC_001494.1	11746	39	117	0.3333333333333333	1	2021_TE_306119_2_4
+Bovine herpesvirus 4 long unique region, complete sequence	741	NC_002665.1	10385	39	117	0.3333333333333333	1	2021_TE_306119_2_4
+Pestivirus giraffe-1 H138 complete genome	684	NC_003678.1	119222	36	111	0.32432432432432434	1	WTA2-BVD
+Streptococcus phage YMC-2011, complete genome	684	NC_018285.1	1051631	36	468	0.07692307692307693	3	CT_24_barcode09_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Streptococcus phage SM1, complete genome	665	NC_004996.1	157924	35	351	0.09971509971509972	3	CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Sheeppox virus 17077-99, complete genome	627	NC_004002.1	10266	33	234	0.14102564102564102	2	MPX_358009,MPXV_359028
+Coronavirus AcCoV-JC34, complete genome	627	NC_034972.1	1964806	33	234	0.14102564102564102	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Murine hepatitis virus strain A59 isolate MHV-ExoN(-) P250, complete genome	627	MF618253.1	11138	33	234	0.14102564102564102	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Fengkai orbivirus isolate D181/2008 segment 1, complete sequence	627	NC_027803.1	1692107	33	231	0.14285714285714285	2	2021_TE_313028_2_4,2021_TE_301967_2_10
+Caprine herpesvirus 1 strain E/CH glycoprotein B gene, complete cds	627	NC_043055.1	39944	33	342	0.09649122807017543	2	BHV1-reads,cvHV2-reads
+Simian Agent 10, complete genome	627	NC_038270.1	929831	33	111	0.2972972972972973	1	WTA2-BVD
+Piscine myocarditis-like virus isolate Golden shiner/PMCLV/USA/MN/2014, complete genome	589	NC_029302.1	1798085	31	468	0.06623931623931624	3	CT_24_barcode09_clean_nonhuman,CT_18_barcode01_clean_nonhuman,2020_TE_4394_1_3
+Sequence 187 from Patent WO0028039	588	NC_043413.1	687356	30	117	0.2564102564102564	1	CT_36_barcode07_clean_nonhuman
+Changuinola virus isolate CGLV/BE AN 28873 segment 1, complete sequence	588	NC_022639.1	40052	30	108	0.2777777777777778	1	2021_TE_315633_1_1
+Torque teno virus 12, complete genome	570	NC_014075.1	687351	30	117	0.2564102564102564	1	CT_36_barcode07_clean_nonhuman
+Torque teno virus 6, complete genome	570	NC_014094.1	687345	30	117	0.2564102564102564	1	CT_36_barcode07_clean_nonhuman
+Aphis glycines virus 3 isolate S6-IA, partial genome	570	NC_034973.1	2005444	30	117	0.2564102564102564	1	2021_TE_306119_2_4
+Avian sarcoma virus CT10 genomic sequence	570	NC_038922.1	11878	30	117	0.2564102564102564	1	MPX_358009
+Orbivirus SX-2017a VP1 gene, complete cds	570	NC_033782.1	1955493	30	117	0.2564102564102564	1	2021_TE_301967_2_10
+Rousettus bat coronavirus HKU9 isolate Rousettus spp/Jinghong/2009, complete genome	551	MG762674.1	694006	29	117	0.24786324786324787	1	CT_18_barcode01_clean_nonhuman
+Streptococcus phage Cp-7, complete genome	532	NC_042114.1	10748	28	351	0.07977207977207977	3	CT_38_barcode08_clean_nonhuman,CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Escherichia phage RCS47, complete genome	532	NC_042128.1	1590550	28	345	0.08115942028985507	3	CT_30_barcode06_clean_nonhuman,CT_27_barcode04A_clean_nonhuman,WTA2-BVD
+Torque teno virus 11 isolate TCHN-D1 Orf2 and Orf1 genes, complete cds	531	NC_038338.1	687350	27	117	0.23076923076923078	1	CT_36_barcode07_clean_nonhuman
+Fruit bat alphaherpesvirus 1 DNA, complete genome	494	NC_024306.1	1343901	26	462	0.05627705627705628	2	BHV1-reads,cpHV1-reads
+Middle East respiratory syndrome-related coronavirus isolate Bat-CoV/H.savii/Italy/206645-40/2011, complete genome	475	MG596802.1	1335626	25	234	0.10683760683760683	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Middle East respiratory syndrome-related coronavirus isolate NL140422, complete genome	475	MG021452.1	1335626	25	234	0.10683760683760683	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Middle East respiratory syndrome-related coronavirus isolate NL13845, complete genome	475	MG021451.1	1335626	25	234	0.10683760683760683	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Streptococcus phage phiARI0468-4, complete genome	456	NC_031915.1	1701830	24	234	0.10256410256410256	2	CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Escherichia phage 500465-1, complete genome	456	NC_049342.1	2716351	24	234	0.10256410256410256	2	CT_30_barcode06_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Rabbit coronavirus HKU14 strain HKU14-3, complete genome	456	JN874560.1	1160968	24	234	0.10256410256410256	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Enterobacteria phage DE3, complete genome	456	NC_042057.1	482822	24	234	0.10256410256410256	2	CT_27_barcode04A_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Rabbit coronavirus HKU14 strain HKU14-10, complete genome	456	JN874562.1	1160968	24	234	0.10256410256410256	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Ralstonia phage RS138 DNA, complete genome	456	NC_029107.1	1483485	24	234	0.10256410256410256	2	2021_TE_301967_2_5,2021_TE_301967_2_10
+Bat coronavirus, complete genome	456	NC_048212.1	1508220	24	117	0.20512820512820512	1	CT_18_barcode01_clean_nonhuman
+Streptococcus phage TP-778L complete genome	456	NC_022776.1	1385385	24	231	0.1038961038961039	2	CT_36_barcode07_clean_nonhuman,2021_TE_313028_2_4
+Rabbit coronavirus HKU14, complete genome	456	NC_017083.1	1160968	24	234	0.10256410256410256	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Avian infectious bronchitis virus, complete genome	456	NC_001451.1	11120	24	234	0.10256410256410256	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Porcine stool-associated circular virus/BEL/15V010 isolate 15V010, complete genome	456	NC_035476.1	2017724	24	234	0.10256410256410256	2	CT_30_barcode06_clean_nonhuman,CT_21_barcode02_clean_nonhuman
+Streptococcus phage PH10, complete genome	456	NC_012756.1	644007	24	234	0.10256410256410256	2	CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Hepatitis C virus genotype 2, complete genome	417	NC_009823.1	40271	21	117	0.1794871794871795	1	CT_21_barcode02_clean_nonhuman
+Saccharomyces cerevisiae killer virus M1, complete genome	417	NC_001782.1	12450	21	117	0.1794871794871795	1	CT_30_barcode06_clean_nonhuman
+Fowl adenovirus E, complete genome	417	NC_014969.1	190065	21	117	0.1794871794871795	1	MPXV_359028
+Wencheng Sm shrew coronavirus isolate Ruian-90 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds	399	KY967725.1	1508228	21	117	0.1794871794871795	1	CT_18_barcode01_clean_nonhuman
+Bacillus phage phi29, complete genome	399	NC_011048.1	2884424	21	228	0.09210526315789473	1	BHV1-reads
+Aotine herpesvirus 1 strain S34E, complete genome	399	NC_016447.1	50290	21	234	0.08974358974358974	2	MPX_358009,MPXV_359028
+Equid herpesvirus 4, complete genome	399	NC_001844.1	10331	21	234	0.08974358974358974	1	cpHV1-reads
+Porcine circovirus type 1/2a, complete genome	399	NC_013774.1	720569	21	228	0.09210526315789473	1	BHV1-reads
+Wencheng Sm shrew coronavirus isolate Wencheng-554 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds	399	KY967733.1	1508228	21	117	0.1794871794871795	1	CT_18_barcode01_clean_nonhuman
+Human coronavirus HKU1, complete genome	380	NC_006577.2	290028	20	234	0.08547008547008547	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Human coronavirus HKU1 strain N22 genotype C, complete genome	380	DQ415899.1	290028	20	234	0.08547008547008547	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Human coronavirus HKU1 strain N24 genotype A, complete genome	380	DQ415901.1	290028	20	234	0.08547008547008547	2	CT_18_barcode01_clean_nonhuman,CT_27_barcode04A_clean_nonhuman
+Streptococcus phage Cp-1, complete genome	380	NC_001825.1	10747	20	234	0.08547008547008547	2	CT_38_barcode08_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Streptococcus phage phiBHN167 complete genome	342	NC_022791.1	1267169	18	234	0.07692307692307693	2	CT_36_barcode07_clean_nonhuman,MPXV_359028
+Sequence 1 from Patent WO0142299	331	NC_043415.1	687361	17	117	0.1452991452991453	1	CT_36_barcode07_clean_nonhuman
+Streptococcus phage SpSL1, complete genome	304	NC_027396.1	1566990	16	234	0.06837606837606838	2	CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Porcine circovirus 2, complete genome	266	NC_005148.1	85708	14	228	0.06140350877192982	1	BHV1-reads
+Influenza A virus	234	MK361935.1	11320	12	117	0.10256410256410256	1	2020_TE_4394_1_3
+Bordetella phage BPP-1, complete genome	228	NC_005357.1	2885909	12	117	0.10256410256410256	1	CT_30_barcode06_clean_nonhuman
+Propionibacterium phage BruceLethal, complete genome	228	NC_031084.1	1654740	12	117	0.10256410256410256	1	2021_TE_301967_2_5
+Propionibacterium phage PHL171M01, complete genome	228	NC_027346.1	1500827	12	117	0.10256410256410256	1	2021_TE_301967_2_5
+Propionibacterium phage PHL150M00, complete genome	228	NC_027294.1	1500822	12	117	0.10256410256410256	1	2020_TE_4394_1_3
+Human papillomavirus type 172, complete genome	228	NC_038523.1	1434987	12	117	0.10256410256410256	1	CT_38_barcode08_clean_nonhuman
+Rat coronavirus Parker, complete genome	228	NC_012936.1	502102	12	117	0.10256410256410256	1	CT_27_barcode04A_clean_nonhuman
+Ateline herpesvirus 3 complete genome	228	NC_001987.1	85618	12	117	0.10256410256410256	1	2021_TE_301967_2_10
+Rabbit fibroma virus, complete genome	228	NC_001266.1	10271	12	117	0.10256410256410256	1	MPX_358009
+Streptococcus phage 20617 complete prophage genome	228	NC_023503.1	1392231	12	117	0.10256410256410256	1	CT_36_barcode07_clean_nonhuman
+Cotia virus SPAn232, complete genome	228	NC_016924.1	930275	12	117	0.10256410256410256	1	MPX_358009
+Turkeypox virus strain TKPV-HU1124/2011, complete genome	228	NC_028238.1	336486	12	117	0.10256410256410256	1	MPX_358009
+Enterovirus goat/JL14, complete genome	228	NC_034267.1	1849328	12	117	0.10256410256410256	1	2021_TE_301967_2_5
+Wigeon coronavirus HKU20, complete genome	228	NC_016995.1	1159908	12	117	0.10256410256410256	1	CT_18_barcode01_clean_nonhuman
+Rhodococcus phage ReqiPepy6, complete genome	228	NC_023735.1	691965	12	117	0.10256410256410256	1	CT_27_barcode04A_clean_nonhuman
+Lactococcus phage ul36, complete genome	228	NC_004066.1	114416	12	117	0.10256410256410256	1	CT_27_barcode04A_clean_nonhuman
+Streptococcus pneumoniae bacteriophage MM1 complete genome	228	NC_003050.2	120574	12	117	0.10256410256410256	1	CT_36_barcode07_clean_nonhuman
+Streptococcus phage TP-J34 complete genome	228	NC_020197.1	73422	12	117	0.10256410256410256	1	CT_36_barcode07_clean_nonhuman
+Human papillomavirus type 30 genomic DNA	228	NC_038889.1	10611	12	117	0.10256410256410256	1	MPX_358009
+Pata virus isolate CAF1968/01 segment 1, complete sequence	228	JQ070386.1	1170506	12	114	0.10526315789473684	1	2021_TE_313028_2_4
+Torque teno virus 1, complete genome	228	NC_002076.2	687340	12	117	0.10256410256410256	1	CT_36_barcode07_clean_nonhuman
+Torque teno virus 20 ORF4, ORF3, ORF2, ORF1 genes, complete cds, clone: SAa-10	228	NC_038340.1	687359	12	117	0.10256410256410256	1	CT_36_barcode07_clean_nonhuman
+Classical swine fever virus, strain Alfort/187 complete genome	228	NC_038912.1	358769	12	111	0.10810810810810811	1	WTA2-BVD
+Lactococcus phage 10W18, complete genome	228	NC_049374.1	1874585	12	117	0.10256410256410256	1	CT_27_barcode04A_clean_nonhuman
+Pandoravirus dulcis, complete genome	228	NC_021858.1	1349409	12	117	0.10256410256410256	1	CT_18_barcode01_clean_nonhuman
+Caviid herpesvirus 2 strain 21222, complete genome	198	NC_020231.1	33706	10	114	0.08771929824561403	1	cvHV2-reads
+UNVERIFIED: Murine coronavirus strain AM2, complete genome	190	KP887098.1	694005	10	231	0.04329004329004329	2	cvHV2-reads,CT_18_barcode01_clean_nonhuman
+Vesicular stomatitis Indiana virus strain 94GUB, complete genome	177	AF473866.1	11277	9	117	0.07692307692307693	1	MPXV_359028
+Torque teno mini virus 10 isolate LIL-y1 ORF2, ORF1, ORF3, and ORF4 genes, complete cds	171	NC_038345.1	2065036	9	117	0.07692307692307693	1	CT_21_barcode02_clean_nonhuman
+Hyphantria cunea nucleopolyhedrovirus, complete genome	171	NC_007767.1	28288	9	117	0.07692307692307693	1	2021_TE_301967_2_5
+Human respirovirus 3 strain HPIV3/Seattle/USA/SC0767/2019, complete genome	152	MN306039.1	11216	8	111	0.07207207207207207	1	WTA2-BVD
+Human respirovirus 3 strain HPIV3/China/BCH01/2016, complete genome	152	KY234287.1	11216	8	111	0.07207207207207207	1	WTA2-BVD
+Human parainfluenza virus 3, complete genome	152	NC_001796.2	11216	8	111	0.07207207207207207	1	WTA2-BVD
+Propionibacterium phage Ouroboros, complete genome	152	NC_027630.1	1655017	8	117	0.06837606837606838	1	2021_TE_301967_2_5
+Propionibacterium phage PHL117M01, complete genome	152	NC_041956.1	1500819	8	117	0.06837606837606838	1	2021_TE_301967_2_5
+Pandoravirus quercus, complete genome	152	NC_037667.1	2107709	8	117	0.06837606837606838	1	CT_18_barcode01_clean_nonhuman
+Streptococcus phage K13, complete sequence	152	NC_024357.1	1448274	8	117	0.06837606837606838	1	CT_36_barcode07_clean_nonhuman
+Enterobacteria phage P1, complete genome	152	NC_005856.1	2886926	8	117	0.06837606837606838	1	CT_21_barcode02_clean_nonhuman
+Stx converting phage vB_EcoS_ST2-8624, complete genome	152	NC_049922.1	1792289	8	117	0.06837606837606838	1	CT_30_barcode06_clean_nonhuman
+Streptococcus phage phiARI0468-2, complete genome	152	NC_031923.1	1701828	8	117	0.06837606837606838	1	CT_30_barcode06_clean_nonhuman
+Propionibacterium phage PHL301M00, complete genome	152	NC_027354.1	1500831	8	117	0.06837606837606838	1	2021_TE_301967_2_5
+Streptococcus phage phiARI0004, complete genome	152	NC_031920.1	1701811	8	117	0.06837606837606838	1	CT_36_barcode07_clean_nonhuman
+Streptococcus phage 5093, complete genome	152	NC_012753.1	646413	8	117	0.06837606837606838	1	CT_21_barcode02_clean_nonhuman
+Propionibacterium phage PHL194M00, complete genome	152	NC_027392.1	1500829	8	117	0.06837606837606838	1	2021_TE_301967_2_5
+Propionibacterium phage PHL071N05, complete genome	152	NC_022337.1	1235650	8	117	0.06837606837606838	1	2021_TE_301967_2_5
+Botrytis cinerea hypovirus 1 satellite-like RNA, complete genome	152	NC_037663.1	2219109	8	108	0.07407407407407407	1	2021_TE_315633_1_1
+Betacoronavirus sp. strain VZ_BetaCoV_16715_52, complete genome	152	MH687968.1	1928434	8	117	0.06837606837606838	1	CT_18_barcode01_clean_nonhuman
+Frog virus 3	152	MK959615.1,MK959619.1	10493	4	117	0.03418803418803419	1	CT_27_barcode04A_clean_nonhuman
+Salmonella phage SJ46, complete genome	152	NC_031129.1	1815968	8	117	0.06837606837606838	1	CT_38_barcode08_clean_nonhuman
+Esparto virus isolate SRR3939042_Esparto_2012, complete genome	152	NC_040536.1	2072209	8	114	0.07017543859649122	1	2021_TE_313028_2_4
+Gordonia phage Rickmore, complete genome	152	NC_048749.1	2507854	8	117	0.06837606837606838	1	CT_38_barcode08_clean_nonhuman
+Ovine adenovirus 8 strain 7508, complete genome	152	NC_055526.1,MK518392.1	2601527	4	114	0.03508771929824561	1	cvHV2-reads
+UNVERIFIED: Eastern equine encephalitis virus isolate 7370152 genomic sequence, sequence	152	KU059746.1	11021	8	117	0.06837606837606838	1	CT_38_barcode08_clean_nonhuman
+Cachoeira Porteira virus strain BeAr328208 nucleocapsid protein gene, complete cds	139	NC_043574.1	1138490	7	117	0.05982905982905983	1	CT_21_barcode02_clean_nonhuman
+Cassia yellow blotch virus RNA3, complete sequence	139	NC_007001.1	300879	7	117	0.05982905982905983	1	CT_36_barcode07_clean_nonhuman
+Influenza A virus (A/New York/392/2004(H3N2))	133	NC_007372.1	335341	7	117	0.05982905982905983	1	2020_TE_4394_1_4
+Streptococcus phage phiARI0131-2, complete genome	114	NC_031941.1	1701814	6	234	0.02564102564102564	2	CT_36_barcode07_clean_nonhuman,CT_30_barcode06_clean_nonhuman
+Equid herpesvirus 2 strain 86/67, complete genome	114	NC_001650.2	12657	6	117	0.05128205128205128	1	MPXV_359028
+Woolly monkey sarcoma virus	99	NC_009424.5	11970	5	114	0.043859649122807015	1	cvHV2-reads
+Middle East respiratory syndrome-related coronavirus isolate MERS-CoV/KOR/KCDC/001_2018-TSVi, complete genome	76	MK129253.1	1335626	4	117	0.03418803418803419	1	CT_27_barcode04A_clean_nonhuman
+Ralstonia phage RSY1 DNA, complete genome	76	NC_025115.1	1530085	4	117	0.03418803418803419	1	2021_TE_301967_2_10
+Unclassified Coronavirus BtRl-BetaCoV/SC2018	76	MK211374.1	2591233	4	117	0.03418803418803419	1	CT_38_barcode08_clean_nonhuman
+Human coronavirus OC43 strain HCoV_OC43/Seattle/USA/SC9430/2018, complete genome	76	MN306053.1	31631	4	117	0.03418803418803419	1	CT_18_barcode01_clean_nonhuman
+Human coronavirus OC43 strain ATCC VR-759, complete genome	76	NC_006213.1	31631	4	117	0.03418803418803419	1	CT_18_barcode01_clean_nonhuman
+Stx2-converting phage 1717, complete prophage genome	76	NC_011357.1	563769	4	117	0.03418803418803419	1	CT_30_barcode06_clean_nonhuman
+Streptomyces phage Rima, complete genome	76	NC_041889.1	1897525	4	117	0.03418803418803419	1	CT_27_barcode04A_clean_nonhuman
+Propionibacterium phage PHL025M00, complete genome	76	NC_027357.1	1500799	4	117	0.03418803418803419	1	2021_TE_301967_2_5
+Enterobacteria phage phi80, complete genome	76	NC_021190.1	10713	4	117	0.03418803418803419	1	CT_21_barcode02_clean_nonhuman
+Streptococcus phage Dp-1, complete genome	76	NC_015274.1	59241	4	117	0.03418803418803419	1	CT_21_barcode02_clean_nonhuman
+Propionibacterium phage Attacne, complete genome	76	NC_027629.1	1655012	4	117	0.03418803418803419	1	2021_TE_301967_2_5
+Murine coronavirus strain JHM-WU-Dns2, complete genome	76	JX169866.1	694005	4	117	0.03418803418803419	1	CT_18_barcode01_clean_nonhuman
+Propionibacterium phage PHL141N00, complete genome	76	NC_027389.1	1500821	4	117	0.03418803418803419	1	2021_TE_301967_2_5
+Ralstonia phage Raharianne, complete genome	76	NC_054955.1	2759715	4	117	0.03418803418803419	1	2021_TE_301967_2_5
+Propionibacterium phage PHL152M00, complete genome	76	NC_027386.1	1500825	4	117	0.03418803418803419	1	2021_TE_301967_2_5
+Cowpea chlorotic mottle virus RNA 3, complete sequence	59	NC_003542.1	12303	3	114	0.02631578947368421	1	cvHV2-reads
+Streptococcus phage phiARI0462, complete genome	57	NC_031942.1	1701826	3	117	0.02564102564102564	1	CT_36_barcode07_clean_nonhuman
+Cyprinid herpesvirus 2 strain ST-J1, complete genome	38	NC_019495.1	317878	2	117	0.017094017094017096	1	MPXV_359028

@@ -1,0 +1,23 @@
+project	sample_name	taxid	accid	description	input_reads	processed_reads	percent passed (%%)	  software	type
+batch01	cs019_illu	10368;32603	X83413.1;NC_001664.4	HHV-6(A)	0	1	2	trimmomatic	Illumina
+batch02	cs032_illu	10368;32604;	NC_000898;NC_000898.1;	HHV-6(B);Human herpesvirus 6B	1	2	3	trimmomatic	Illumina
+batch03	cs001_illu	47506	HM777023  	Enterovirus	2	3	4	trimmomatic	Illumina
+batch04	GOSHmeta1_illu	2560602	KX223397;NC_002200.1	Mumps	3	4	5	trimmomatic	Illumina
+batch05	GOSHmeta2_illu		KU131570.1	OC43;coronavirus OC43	4	5	6	trimmomatic	Illumina
+batch06	GOSHmeta3_illu	645687;31631	NC_013060.1;NC_006213.1	Astrovirus VA1	5	6	7	trimmomatic	Illumina
+batch07	cs014_illu	NA	U65577.1	Influenza	6	7	8	trimmomatic	Illumina
+batch08	cs063_illu	277944	NC_005831.2;MG428704.1	NL63;coronavirus	7	8	9	trimmomatic	Illumina
+batch08	cs054_illu	11216	MH330335.1;KY234287.1;NC_001796.2;MN306039.1	PIV-3;respirovirus 3;parainfluenza virus 3	8	9	10	trimmomatic	Illumina
+batch09	cs106_illu	11047	JQ765569.1	NL63	9	10	11	trimmomatic	Illumina
+batch10	cs080_illu	290028	KF686344.1;NC_006577.2;DQ415901.1;DQ415899.1	HKU-1	10	11	12	trimmomatic	Illumina
+batch11	cs021_illu	129875	AM749299.1;KF268119.1	Adenovirus	11	12	13	trimmomatic	Illumina
+batch12	2020_TE_4394_1_10_illu	211044;641809	NC_002023.1;NC_026438.1	H1N1	8,307	8,172	98.37	trimmomatic	Illumina
+batch13	2020_TE_4394_1_3_illu	211044;641809	NC_002023.1;NC_026438.1	H1N1	128,933	126,852	98.39	trimmomatic	Illumina
+batch14	2020_TE_4394_1_4_illu	211044;641809	NC_002023.1;NC_026438.1	H1N1	43,31	42,74	98.68	trimmomatic	Illumina
+batch15	2020_TE_4394_1_7_illu	211044;641809	NC_002023.1;NC_026438.1	H1N1	12,863	12,738	99.03	trimmomatic	Illumina
+batch16	2020_TE_4394_1_8_illu	211044;641809	NC_002023.1;NC_026438.1	H1N1	28,387	27,984	98.58	trimmomatic	Illumina
+batch17	2021_TE_301967_2_10_illu	40051	NC_006014.1;NC_006023.1;NC_006007.1;NC_006024.2;NC_006025.1;NC_006022.1;NC_006015.1	Bluetongue virus	732,654	732,614	99.99	trimmomatic	Illumina
+batch18	2021_TE_301967_2_5_illu	40051	NC_006014.1;NC_006023.1;NC_006007.1;NC_006024.2;NC_006025.1;NC_006022.1;NC_006015.1	Bluetongue virus	334,641	334,629	100.0	trimmomatic	Illumina
+batch19	2021_TE_306119_2_4_illu	40051	NC_006014.1;NC_006023.1;NC_006007.1;NC_006024.2;NC_006025.1;NC_006022.1;NC_006015.1	Bluetongue virus	813,964	813,934	100.0	trimmomatic	Illumina
+batch20	2021_TE_313028_2_4_illu	449133;402584;40054	NC_013396.1;NC_012812.1;LC202944.1	Epizootic hemorrhagic disease	575,871	575,854	100.0	trimmomatic	Illumina
+batch21	2021_TE_315633_1_1_illu	449133;40054	NC_013396.1;LC202944.1	Epizootic hemorrhagic disease	364,942	364,883	99.98	trimmomatic	Illumina

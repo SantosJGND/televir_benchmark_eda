@@ -1,0 +1,6 @@
+analysis_data/*
+benchmark_data/*
+logs/*
+.venv
+.vscode
+__pychache__/
