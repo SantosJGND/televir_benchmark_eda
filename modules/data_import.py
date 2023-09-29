@@ -10,7 +10,7 @@ def infer_source_files_technology(technology, INPUT_DIR, METADATA_DIR):
         all_parameters_file = INPUT_DIR + "all_parameters_ont.tsv"
         all_references_file = INPUT_DIR + "all_references_ont.tsv"
         validation_file = METADATA_DIR + "benchmark_ont_validation.tsv"
-    elif technology == CS.TECHNOLOGY_illumina_old:
+    elif technology in [CS.TECHNOLOGY_illumina_old, CS.TECHNOLOGY_illumina]:
         all_reports_file = INPUT_DIR + "all_reports_illumina.tsv"
         all_parameters_file = INPUT_DIR + "all_parameters_illumina.tsv"
         all_references_file = INPUT_DIR + "all_references_illumina.tsv"

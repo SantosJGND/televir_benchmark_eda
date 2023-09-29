@@ -144,7 +144,7 @@ class Validator:
         return False
 
 
-def standardize_runs_df(df, filter=False):
+def standardize_runs_df(df, filter=False, method="log"):
     dt = []
 
     def split_if_not_nan(x):
@@ -165,10 +165,19 @@ def standardize_runs_df(df, filter=False):
                 sub[cols] = np.NaN
             else:
                 sub[cols] = sub[cols].astype(float)
+
+                if method == "log":
+                    sub[cols] = sub[cols].apply(lambda x: np.log10(x))
                 # sub[cols] = sub[cols].apply(lambda x: np.log10(x))
 
                 # sub[cols] = (sub[cols] - np.nanmean(sub[cols])) / np.nanstd(sub[cols])
-                sub[cols] = sub[cols] / np.max(sub[cols])
+                if method == "max":
+                    sub[cols] = sub[cols] / np.max(sub[cols])
+
+                if method == "z":
+                    sub[cols] = (sub[cols] - np.nanmean(sub[cols])) / np.nanstd(
+                        sub[cols]
+                    )
 
             if filter:
                 sub = sub[(sub[cols] < 4) & (sub[cols] > -4)]
@@ -184,7 +193,7 @@ def standardize_runs_df(df, filter=False):
 
 
 def df_runid_summary(run_df, analysis_dir: str, technology: str):
-    technology_text = technology.lower()
+    technology_text = technology.lower().replace("/", "_").replace(" ", "_")
     report_file = os.path.join(analysis_dir, f"reports_runid.{technology_text}.tsv")
     if os.path.isfile(report_file):
         run_assess = pd.read_csv(report_file, sep="\t")
@@ -273,9 +282,9 @@ class run_eda:
     softs: pd.DataFrame
     source_total: dict
     sources: list
-    run_summaries_filename: str = "run_summaries.tsv"
-    combined_reports_filename: str = "combined_reports.tsv"
-    reports_combined_full_filename: str = "reports.comb_full.tsv"
+    run_summaries_file_suffix: str = "run_summaries_"
+    combined_reports_file_suffix: str = "combined_reports_"
+    reports_combined_full_file_suffix: str = "reports.comb_full_"
 
     def __init__(
         self,
@@ -292,14 +301,18 @@ class run_eda:
         self.samples_keep = samples_keep
         self.intermediate_output_dir = intermediate_output_dir
         self.dir = os.path.dirname(report_file)
+        technology_safe = technology.lower().replace(" ", "_").replace("/", "_")
         self.run_summaries_path = os.path.join(
-            self.intermediate_output_dir, self.run_summaries_filename
+            self.intermediate_output_dir,
+            self.run_summaries_file_suffix + technology_safe + ".tsv",
         )
         self.combined_reports_path = os.path.join(
-            self.intermediate_output_dir, self.combined_reports_filename
+            self.intermediate_output_dir,
+            self.combined_reports_file_suffix + technology_safe + ".tsv",
         )
         self.reports_combined_full_path = os.path.join(
-            self.intermediate_output_dir, self.reports_combined_full_filename
+            self.intermediate_output_dir,
+            self.reports_combined_full_file_suffix + technology_safe + ".tsv",
         )
 
         self.run_input()

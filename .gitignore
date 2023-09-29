@@ -4,3 +4,4 @@ logs/*
 .venv
 .vscode
 __pychache__/
+scikit-learn/

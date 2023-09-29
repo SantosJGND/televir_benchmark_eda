@@ -216,3 +216,106 @@ def plot_workflow_boxplots(
     fig.set_xlabel(f"modules: {xlbal}")
 
     plt.show(fig)
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+def plot_pipe_tree_heatmap(pipe_tree_df_leaves, columns_to_plot=[]):
+    """
+    plot pipe tree heatmap using viridis without values using sns (for paper)
+    """
+    df_to_plot = pipe_tree_df_leaves[columns_to_plot]
+
+    sns.set(font_scale=1.5)
+    sns.set_style("whitegrid")
+    plt.rcParams["figure.figsize"] = (10, 10)
+    #
+    sns.heatmap(df_to_plot)
+    plt.show()
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+def label_nodes(row, module, leaf_paths_index: dict) -> str:
+    node = row.name
+    node_df = leaf_paths_index.get(node)
+
+    for node in list(node_df.node.values):
+        if node[0] == module:
+            return node[1]
+
+    return "None"
+
+
+###
+
+
+def strings_to_factors(df, columns: List[str]):
+    total_software = []
+    for col in columns:
+        total_software += list(df[col].unique())
+    total_software = list(set(total_software))
+    col_codes = {s: i for i, s in enumerate(total_software)}
+
+    for col in columns:
+        df[col] = df[col].apply(lambda x: col_codes.get(x))
+
+    return df, col_codes
+
+
+from modules.analysis_functions import (
+    strings_to_factors,
+    label_nodes,
+    benchmark_results_pca,
+)
+
+
+def plot2heatmaps(pipe_tree: pipeline_tree, cols_categorical=[], cols_numerical=[]):
+    leaf_paths = pipe_tree.get_leaf_paths()
+    leaf_paths_index = {l: pipe_tree.node_index.loc[g] for l, g in leaf_paths.items()}
+
+    pipe_tree_df_pca, loadings = benchmark_results_pca(pipe_tree)
+
+    stats_df = pipe_tree_df_pca.copy()
+
+    for col in cols_categorical:
+        stats_df[col] = stats_df.apply(
+            lambda x: label_nodes(x, col, leaf_paths_index), axis=1
+        )
+
+    stats_df_categorical, col_codes = strings_to_factors(stats_df, cols_categorical)
+
+    plot_pipe_tree_heatmap_2plots(
+        stats_df_categorical,
+        cols_categorical=cols_categorical,
+        cols_numerical=cols_numerical,
+    )
+
+
+def plot_pipe_tree_heatmap_2plots(
+    stats_df: pd.DataFrame, cols_categorical=[], cols_numerical=[]
+):
+    """
+    plot pipe tree heatmap using viridis without values using sns (for paper)
+    """
+    # pipe_tree_df_leaves = pipe_tree.get_leaves_df()
+    df_categorical = stats_df[cols_categorical]
+    cols_numerical = stats_df[cols_numerical]
+
+    sns.set(font_scale=1.5)
+    sns.set_style("whitegrid")
+
+    plt.rcParams["figure.figsize"] = (15, 10)
+    fig, (ax1, ax2) = plt.subplots(1, 2)
+
+    with sns.color_palette("Set2") as cmap:
+        sns.heatmap(df_categorical, cmap=cmap, ax=ax1)
+
+    with sns.color_palette("viridis") as cmap:
+        sns.heatmap(cols_numerical, cmap=cmap, ax=ax2)
+
+    plt.show()

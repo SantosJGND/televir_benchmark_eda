@@ -13,6 +13,17 @@ from benchmark_metadata.televir_deploy_parameters import (
     Params_Illumina,
     Params_Nanopore,
 )
+import numpy as np
+import os
+import pandas as pd
+from benchmark_metadata.televir_deploy_parameters import (
+    Params_Illumina,
+    Params_Nanopore,
+)
+
+import itertools as it
+import networkx as nx
+from collections import defaultdict
 
 tree = lambda: defaultdict(tree)
 
@@ -27,7 +38,7 @@ def make_tree(lst):
 
 
 class pipeline_tree:
-    node_runs_filename = "node_runs.tsv"
+    node_runs_filename = "node_runs"
     edge_dict: list
     leaves: list
     nodes: list
@@ -36,12 +47,15 @@ class pipeline_tree:
     def __init__(self, output_dir="./", technology=CS.TECHNOLOGY_minion):
         self.output_dir = output_dir
         self.technology = technology
-        self.node_runs_filepath = os.path.join(self.output_dir, self.node_runs_filename)
+        technology_simple = technology.replace("/", "_")
+        self.node_runs_filepath = os.path.join(
+            self.output_dir, self.node_runs_filename + f"_{technology_simple}" + ".tsv"
+        )
 
     def param_input(self, technology):
         if technology == CS.TECHNOLOGY_minion:
             self.mod = Params_Nanopore
-        elif technology == CS.TECHNOLOGY_illumina:
+        elif technology in [CS.TECHNOLOGY_illumina_old, CS.TECHNOLOGY_illumina]:
             self.mod = Params_Illumina
 
         self.SOFTWARE_LIST = list(self.mod.SOFTWARE.keys())
@@ -219,8 +233,26 @@ class pipeline_tree:
         if os.path.exists(self.node_runs_filepath):
             node_runs_df = pd.read_csv(self.node_runs_filepath, sep="\t")
         else:
-            node_runs_df = self.collect_leaf_runs(params)
+            node_runs_df = self.generate_leaf_runs_df(params)
             node_runs_df.to_csv(self.node_runs_filepath, sep="\t", index=False)
+
+        return node_runs_df
+
+    def generate_leaf_runs_df(self, params: pd.DataFrame) -> pd.DataFrame:
+        """collect runids for each leaf node"""
+
+        nid = self.node_index
+
+        params["value"] = params.value.astype(str)
+
+        node_runs = {x: [] for x in self.nodes}
+        leaf_paths = self.get_leaf_paths()
+        for node, path in leaf_paths.items():
+            node_runs[node] = self.path_collect_runs(path, nid, params)
+
+        node_runs_df = pd.DataFrame(node_runs.items(), columns=["node", "runids"])
+        node_runs_df = node_runs_df.explode("runids")
+        node_runs_df = node_runs_df.dropna()
 
         return node_runs_df
 
@@ -321,7 +353,6 @@ class pipeline_tree:
         """
 
         node_runs_df = self.collect_leaf_runs(params)
-        print("node_runs_df", node_runs_df.shape)
 
         iter_scores = []
         df_sources = df.source.unique()
