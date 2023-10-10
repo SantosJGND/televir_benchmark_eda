@@ -1,5 +1,7 @@
 # Metagenomics Classification Benchmark EDA
 
+[![DOI](https://zenodo.org/badge/691998849.svg)](https://zenodo.org/badge/latestdoi/691998849)
+
 ## Introduction
 
 The present repository was created as an accompaniment to the paper "INSaFLU-TELEVIR: an open web-based bioinformatics suite for viral metagenomic detection and routine genomic surveillance", where the TELEVIR module is introduced. INSaFLU-TELEVIR is a web-based bioinformatics suite for viral metagenomic detection and routine genomic surveillance ([website](https://insaflu.insa.pt/); [github](https://github.com/INSaFLU/); [documentation](https://insaflu.readthedocs.io/en/latest)). The present repository contains the code used to perform the exploratory data analysis (EDA) of the metagenomics classification benchmark.
