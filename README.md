@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The present repository was created as an accompaniment to the paper "INSaFLU-TELEVIR: an open web-based bioinformatics suite for viral metagenomic detection and routine genomic surveillance", where the TELEVIR module is introduced. Insaflu-TELEVIR is a web-based bioinformatics suite for viral metagenomic detection and routine genomic surveillance. It is composed of two main modules: INSaFLU, a pipeline for genomic surveillance and outbreak control, and TELEVIR, a pipeline for the detection of any virus in clinical samples. The TELEVIR module is composed of four main steps: (i) quality control, (ii) Preprocessing (i.e. Viral Enrichment and/or Host Depletion), (iii.) taxonomic classification of reads and / or contigs, and (iv.) Confirmatory analsysis through remapping. The present repository contains the code used to perform the exploratory data analysis (EDA) of the metagenomics classification benchmark.
+The present repository was created as an accompaniment to the paper "INSaFLU-TELEVIR: an open web-based bioinformatics suite for viral metagenomic detection and routine genomic surveillance", where the TELEVIR module is introduced. INSaFLU-TELEVIR is a web-based bioinformatics suite for viral metagenomic detection and routine genomic surveillance ([website](https://insaflu.insa.pt/); [github](https://github.com/INSaFLU/); [documentation](https://insaflu.readthedocs.io/en/latest)). The present repository contains the code used to perform the exploratory data analysis (EDA) of the metagenomics classification benchmark.
 
 ## Data
 
