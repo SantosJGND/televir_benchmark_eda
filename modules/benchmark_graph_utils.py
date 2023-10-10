@@ -657,6 +657,11 @@ class pipeline_tree:
         self.nodes_compress = nodes_compress
         self.edge_compress = edges_compress
 
+        self.compress_dag_dict = {
+            x[0]: [y[1] for y in self.edge_compress if y[0] == x[0]]
+            for x in self.nodes_compress
+        }
+
     def split_modules(self):
         if self.nodes_compress is None:
             self.compress_tree()
@@ -665,8 +670,6 @@ class pipeline_tree:
         edge_compress = self.edge_compress
 
         new_nodes = []
-        new_edges = []
-
         for node in nodes_compress:
             internal_nodes = []
             internal_edges = []
@@ -682,6 +685,8 @@ class pipeline_tree:
 
             if len(internal_splits) > 1:
                 internal_splits.append(len(node[1]))
+                node_connections = [x for x in edge_compress if x[0] == node[0]]
+                node_children = [x[1] for x in node_connections]
                 for ix, split in enumerate(internal_splits[:-1]):
                     internal_nodes.append(
                         [node[1][split], (node[1][split : internal_splits[ix + 1]])]
@@ -690,12 +695,38 @@ class pipeline_tree:
                 for ix, split in enumerate(internal_nodes[:-1]):
                     internal_edges.append([split[0], internal_nodes[ix + 1][0]])
 
+                edge_compress = [x for x in edge_compress if x not in node_connections]
                 new_nodes.extend(internal_nodes)
                 edge_compress.extend(internal_edges)
+                edge_compress.extend(
+                    [[new_nodes[-1][0], child] for child in node_children]
+                )
+
             else:
                 new_nodes.append(node)
 
+        ### change node name for leaves if in branch
+        def check_leaf_in_list(list):
+            for leaf in self.leaves:
+                if leaf in list:
+                    return leaf
+
+            return None
+
+        nodes_with_leaves = {}
+        for node in new_nodes:
+            if node[0] in self.leaves:
+                continue
+            leaf_found = check_leaf_in_list(node[1])
+            if leaf_found is not None:
+                nodes_with_leaves[node[0]] = leaf_found
+
+        for node, leaf in nodes_with_leaves.items():
+            new_nodes.append([leaf, ()])
+            edge_compress.append([node, leaf])
+
         self.nodes_compress = new_nodes
+        self.edge_compress = edge_compress
 
         self.compress_dag_dict = {
             z: [
@@ -720,9 +751,10 @@ class pipeline_tree:
             if child_name[2] != "module":
                 new_party.append(child)
                 self.same_module_children(child, new_party, branches=branches)
+
             else:
                 if len(new_party) > 0:
-                    branches.append(new_party)
+                    branches.append({"branch": tuple(new_party), "exit": (node, child)})
                 new_party = []
 
         return branches
@@ -730,31 +762,49 @@ class pipeline_tree:
     def get_module_tree(self):
         if self.nodes_compress is None:
             self.compress_tree()
-
-            nodes_compress = self.nodes_compress
-            edge_compress = self.edge_compress
-
             self.split_modules()
 
-        nodes_df = pd.DataFrame(self.nodes_compress, columns=["node", "branch"])
-        edge_df = pd.DataFrame(self.edge_compress, columns=["parent", "child"])
+        original_nodes = pd.DataFrame(self.nodes_compress, columns=["node", "branch"])
+        nodes_df = original_nodes.copy()
+        original_edge_df = pd.DataFrame(self.edge_compress, columns=["parent", "child"])
+        edge_df = original_edge_df.copy()
 
-        def edit_branches(branches, nodes_df, edge_df, parent_node):
+        def edit_branches(
+            node,
+            branches,
+            nodes_df_small,
+            edge_df_small,
+            parent_node,
+            original_nodes_df,
+        ):
             """ """
             new_edges = []
             new_nodes = []
-            for branch in branches:
+            for branch_meta in branches:
+                branch = branch_meta["branch"]
+                exit_edge = branch_meta["exit"]
                 if len(branch) == 1:
                     continue
 
-                nodes_df = nodes_df[~nodes_df.node.isin(branch)]
-                edge_df = edge_df[~edge_df.parent.isin(branch[:-1])]
-                edge_df = edge_df[~edge_df.child.isin(branch)]
+                recovered_branch = []
+                for node in branch:
+                    internal_nodes = original_nodes_df[
+                        original_nodes_df.node == node
+                    ].branch.values[0]
+                    recovered_branch.extend(internal_nodes)
 
-                new_edges.append([parent_node, branch[-1]])
-                new_nodes.append([branch[-1], tuple(branch)])
+                recovered_branch = tuple(set(recovered_branch))
+                branch = sorted(recovered_branch)
+                nodes_df_small = nodes_df_small[~nodes_df_small.node.isin(branch)]
+                edge_df_small = edge_df_small[
+                    ~edge_df_small.parent.isin([x for x in branch if x != exit_edge[0]])
+                ]
+                edge_df_small = edge_df_small[~edge_df_small.child.isin(branch)]
 
-            return new_nodes, new_edges, nodes_df, edge_df
+                new_edges.append([parent_node, exit_edge[0]])
+                new_nodes.append([exit_edge[0], tuple(branch)])
+
+            return new_nodes, new_edges, nodes_df_small, edge_df_small
 
         def merge_new_branches(new_nodes, new_edges, nodes_df, edge_df):
             new_nodes = pd.DataFrame(new_nodes, columns=["node", "branch"])
@@ -767,27 +817,62 @@ class pipeline_tree:
 
         for node in self.nodes_compress:
             node_name = self.node_index.loc[node[0]].node
-            if not node_name[2] == "module":
-                continue
 
-            parent_node = edge_df[edge_df.child == node[0]].parent.values
+            if not node_name[1] is None:
+                if not node_name[2] == "module":
+                    continue
+
+            parent_node = original_edge_df[
+                original_edge_df.child == node[0]
+            ].parent.values
+            child_node = original_edge_df[
+                original_edge_df.parent == node[0]
+            ].child.values
 
             if len(parent_node) == 0:
                 parent_node = [0]
+
             parent_node = parent_node[0]
 
             same_module_branches = self.same_module_children(
                 node[0], [node[0]], branches=[]
             )
+
+            if node_name == ("root", None, None):
+                same_module_branches = [
+                    {
+                        "branch": [[node[0], self.compress_dag_dict[node[0]][0]]],
+                        "exit": (0, self.compress_dag_dict[node[0]][0]),
+                    }
+                ]
+
             new_nodes, new_edges, nodes_df, edge_df = edit_branches(
-                same_module_branches, nodes_df, edge_df, parent_node
+                node[0],
+                same_module_branches,
+                nodes_df,
+                edge_df,
+                parent_node,
+                original_nodes,
             )
+
             nodes_df, edge_df = merge_new_branches(
                 new_nodes, new_edges, nodes_df, edge_df
             )
 
-        self.nodes_compress = nodes_df.to_numpy().tolist()
-        self.edge_compress = edge_df.to_numpy().tolist()
+        self.nodes_compress = (
+            nodes_df.drop_duplicates(subset=["node"]).to_numpy().tolist()
+        )
+
+        self.edge_compress = edge_df.drop_duplicates().to_numpy().tolist()
+
+        self.compress_dag_dict = {
+            z: [
+                self.edge_compress[x][1]
+                for x in range(len(self.edge_compress))
+                if self.edge_compress[x][0] == z
+            ]
+            for z in list(set([x[0] for x in self.nodes_compress]))
+        }
 
 
 import random

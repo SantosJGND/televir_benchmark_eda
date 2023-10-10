@@ -124,6 +124,8 @@ def plot_benchmark_tree(
     pipe_tree.tree_scores(stats, internode_function=internode_function)
     print("compressing tree")
     pipe_tree.compress_tree()
+    pipe_tree.split_modules()
+    pipe_tree.get_module_tree()
 
     nodes = pipe_tree.nodes_compress
     edges = pipe_tree.edge_compress
